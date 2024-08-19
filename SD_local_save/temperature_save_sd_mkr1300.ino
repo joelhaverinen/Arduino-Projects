@@ -18,7 +18,7 @@ String fileName;
 
 void setup() {
   Serial.begin(9600);
-  while (!Serial);
+  //while (!Serial);
 
   if (!ENV.begin()) {
     Serial.println("Failed to initialize MKR ENV shield!");
